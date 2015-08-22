@@ -1,3 +1,4 @@
+/*
 package com.mongodb;
 
 import freemarker.template.Configuration;
@@ -9,9 +10,11 @@ import java.io.StringWriter;
 import java.util.HashMap;
 import java.util.Map;
 
+*/
 /**
  * Created by manish on 11/8/15.
- */
+ *//*
+
 public class HelloWorldFreemarkerStyle {
     public static void main(String[] args) {
         Configuration configuration=new Configuration();
@@ -32,3 +35,4 @@ public class HelloWorldFreemarkerStyle {
 
     }
 }
+*/
