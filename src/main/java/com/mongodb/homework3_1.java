@@ -66,7 +66,7 @@ public class homework3_1 {
             studentsCollection.updateOne(new Document("_id", student.get("_id")), new Document("$pull", new Document("scores", new Document("type", "homework")
                     .append("score", lowestHomeworkScore))));
 /*
-            for (Document document:arrayOfDocumentOfScoresOfDiffTypes){
+ //           for (Document document:arrayOfDocumentOfScoresOfDiffTypes){
                 System.out.println("document-->" + document);
                 System.out.println("counter in looping through the arrayOfDocumentOfScoresOfDiffTypes :document"+counter1);
                 counter1++;
